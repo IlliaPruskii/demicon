@@ -1,12 +1,12 @@
-import React, { useEffect, useMemo, useState } from 'react'
-import axios from 'axios'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Container from 'react-bootstrap/Container'
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
+import React, { useEffect, useMemo, useState } from "react"
+import axios from "axios"
+import "bootstrap/dist/css/bootstrap.min.css"
+import Container from "react-bootstrap/Container"
+import Form from "react-bootstrap/Form"
+import Button from "react-bootstrap/Button"
+import Card from "react-bootstrap/Card"
 
-const API = 'http://localhost:8000/'
+const API = "http://localhost:8000/"
 
 type User = {
   gender: string
